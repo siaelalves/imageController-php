@@ -1,0 +1,39 @@
+{
+ "name":"Image Controller",
+ "author":"Siael Alves",
+ "license":"MIT License",
+ "homepage":"https://diariocode.com.br",
+ "publishedDate":"2024-09-21T16:55:00+00:00",
+ "history":
+ [
+  {
+   "version":
+   {
+    "major":1,
+    "minor":0,
+    "patch":0
+   },
+   "changes":
+   [
+    {
+     "priority":"urgente",
+     "description":"Lançamento inicial.",
+     "timestamp":"2024-09-21T16:55:00+00:00"
+    }
+   ]
+  }
+ ],
+ "dependencies":
+ [
+  {
+   "name":"File Manager",
+   "git":"https://github.com/siaelalves/fileManager-php.git",
+   "version":
+   {
+    "major":1,
+    "minor":0,
+    "patch":0
+   }
+  }
+ ]
+}
