@@ -16,7 +16,7 @@ class size {
    if ( $size_name == $image_size [ "name" ] ) {
 
     $this->name = $image_size [ "name" ] ;
-
+    
     if ( $image_size [ "width" ] == "auto" ) {
 
      $this->dimension->width = 0 ;
@@ -40,12 +40,6 @@ class size {
    } else if ( $size_name == "original" ) {
 
     $this->name = $size_name ;
-    $this->dimension->width = 0 ;
-    $this->dimension->height = 0 ;
-
-   } else {
-
-    $this->name = "original" ;
     $this->dimension->width = 0 ;
     $this->dimension->height = 0 ;
 
